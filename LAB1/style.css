@@ -1,0 +1,13 @@
+.blue{
+    color: blue
+}
+button{
+    color: lime;
+}
+#major{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 0, 255);
+}
+
+</style>
