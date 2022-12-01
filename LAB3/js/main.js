@@ -37,7 +37,7 @@
         $(".in1:even").toggleClass("red");
     });
 
-    $("#div_form").load("./pafes/form.hdml")
+    $("#div_form").load("./pages/form.html")
 
     });//jQuery Handle
     
