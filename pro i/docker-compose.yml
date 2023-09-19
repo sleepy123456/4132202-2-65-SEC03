@@ -1,0 +1,14 @@
+version: '3'
+services:
+  telnet:
+    image: rastasheep/ubuntu-sshd
+    ports:
+      - 2222:22
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - "./www:/var/www/html"
+    depends_on:
+      - telnet
